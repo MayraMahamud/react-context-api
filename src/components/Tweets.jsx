@@ -4,8 +4,8 @@ import Tweet from './Tweet'
 import { TwitterContext } from '../App'
 
 export default function Tweets() {
-    const { tweets, setTweets, user, theme } = useContext(TwitterContext);
-  console.log(tweets)
+   
+  const { tweets, setTweets, user, theme } = useContext(TwitterContext);
   return (
         <main>
             <div className={theme === 'dark' ? 'top-bar dark' : 'top-bar'}>

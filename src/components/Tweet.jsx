@@ -1,8 +1,8 @@
 import { useContext } from "react"
 import { TwitterContext } from "../App"
 
-export default function Tweet() {
-    const { tweet, theme } = useContext(TwitterContext);
+export default function Tweet({ tweet, theme }) {
+  //  const { tweet, theme } = useContext(TwitterContext);
   console.log(tweet)
   
   
